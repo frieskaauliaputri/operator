@@ -6,6 +6,18 @@
     echo $a[$i];
  }
  echo substr("wikrama" -2 ,1); 
+ // substr untuk mengambil value dari string 
+ // jika 2 argumen = string yg diambil ke 8 dan sterusnya 
+ // jika 3 argumen = argumen 2 pengambilan awal string , argumen 3 brpa banyak string yg diambil klo minus yang ktiga hanya bisa sampai 2
+ //implode = memecah array jadi string (separator = jdi pemisah antara record ,argumen 2 = array yg akan dipecah jdi string )echo implode(', ' ,$data)
+ //  explode = mengubah string jadi array 
+ // explode pake var_dump() , print_r(),foreach() =print_r(explode(',', $rombel)[0])
+ // number_format = mmeformatr angka dalam skala ribuan 
+//  echo number_format('4500000');
+//  echo number_format('4500000',2);
+//  menambah angka nol dibelakang argumen 1 
+//  echo number_format('4500000',2,',','.');
+//  argumen 4 mengubah separator yg pertama 
  ?>
 <?php
 //  soal 2.
